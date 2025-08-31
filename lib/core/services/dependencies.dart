@@ -1,6 +1,6 @@
-/*import 'package:car_appp_admin/core/services/dependences.config.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
+import 'dependencies.config.dart';
 
 final getIt = GetIt.instance;
 
@@ -9,4 +9,4 @@ final getIt = GetIt.instance;
   preferRelativeImports: true, // default
   asExtension: true, // default
 )
-void configureDependencies() => getIt.init();*/
+void configureDependencies() => getIt.init();

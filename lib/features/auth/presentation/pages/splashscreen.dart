@@ -1,6 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
+import 'loginscreen.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
 
@@ -37,7 +39,9 @@ class _SplashScreenState extends State<SplashScreen>
       context,
       MaterialPageRoute(
         builder: (context) => FirebaseAuth.instance.currentUser != null
-            ? Homescreen()
+            ?
+              //TODO!
+              Scaffold()
             : const LoginPage(),
       ),
     );

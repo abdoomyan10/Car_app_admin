@@ -1,4 +1,3 @@
-
 import 'package:car_appp_admin/core/utils/request_status.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -11,4 +10,3 @@ class AuthState {
     return AuthState(status: status ?? this.status, user: user ?? this.user);
   }
 }
-s

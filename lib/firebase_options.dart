@@ -42,42 +42,6 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCAciMEOt43ikdbERxjEEMMrZmmGnLme5o',
-    appId: '1:1072725251889:web:7dc9d98964c52b15218210',
-    messagingSenderId: '1072725251889',
-    projectId: 'carapp-608d1',
-    authDomain: 'carapp-608d1.firebaseapp.com',
-    storageBucket: 'carapp-608d1.firebasestorage.app',
-    measurementId: 'G-E828M5M6BN',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDtaaUg3omm7qbWmdzpLdG6pw9UzD9LTRU',
-    appId: '1:1072725251889:android:034e227f96a4e3f2218210',
-    messagingSenderId: '1072725251889',
-    projectId: 'carapp-608d1',
-    storageBucket: 'carapp-608d1.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA4PGdhcECsmiWn9r5gqZGjihE686vPQvA',
-    appId: '1:1072725251889:ios:fba05364f3c9ed30218210',
-    messagingSenderId: '1072725251889',
-    projectId: 'carapp-608d1',
-    storageBucket: 'carapp-608d1.firebasestorage.app',
-    iosBundleId: 'com.example.carAppp',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyA4PGdhcECsmiWn9r5gqZGjihE686vPQvA',
-    appId: '1:1072725251889:ios:fba05364f3c9ed30218210',
-    messagingSenderId: '1072725251889',
-    projectId: 'carapp-608d1',
-    storageBucket: 'carapp-608d1.firebasestorage.app',
-    iosBundleId: 'com.example.carAppp',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCAciMEOt43ikdbERxjEEMMrZmmGnLme5o',
     appId: '1:1072725251889:web:286150ac0be0d72c218210',
     messagingSenderId: '1072725251889',
     projectId: 'carapp-608d1',
@@ -85,4 +49,41 @@ class DefaultFirebaseOptions {
     storageBucket: 'carapp-608d1.firebasestorage.app',
     measurementId: 'G-PS2FFNMYTN',
   );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyDtaaUg3omm7qbWmdzpLdG6pw9UzD9LTRU',
+    appId: '1:1072725251889:android:cdc94e41427b0c77218210',
+    messagingSenderId: '1072725251889',
+    projectId: 'carapp-608d1',
+    storageBucket: 'carapp-608d1.firebasestorage.app',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyA4PGdhcECsmiWn9r5gqZGjihE686vPQvA',
+    appId: '1:1072725251889:ios:a30c408cd6a42d9e218210',
+    messagingSenderId: '1072725251889',
+    projectId: 'carapp-608d1',
+    storageBucket: 'carapp-608d1.firebasestorage.app',
+    iosBundleId: 'com.example.carApppAdmin',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyA4PGdhcECsmiWn9r5gqZGjihE686vPQvA',
+    appId: '1:1072725251889:ios:a30c408cd6a42d9e218210',
+    messagingSenderId: '1072725251889',
+    projectId: 'carapp-608d1',
+    storageBucket: 'carapp-608d1.firebasestorage.app',
+    iosBundleId: 'com.example.carApppAdmin',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCAciMEOt43ikdbERxjEEMMrZmmGnLme5o',
+    appId: '1:1072725251889:web:f7032cf3696d78a4218210',
+    messagingSenderId: '1072725251889',
+    projectId: 'carapp-608d1',
+    authDomain: 'carapp-608d1.firebaseapp.com',
+    storageBucket: 'carapp-608d1.firebasestorage.app',
+    measurementId: 'G-7HENGXXBYK',
+  );
+
 }

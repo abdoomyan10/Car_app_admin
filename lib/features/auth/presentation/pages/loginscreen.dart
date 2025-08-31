@@ -7,6 +7,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../../../core/services/dependencies.dart';
+import '../../domain/usecase/login_user.dart';
+
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
@@ -155,38 +158,6 @@ class _LoginPageState extends State<LoginPage> {
                     label: Text('تسجيل الدخول', style: TextStyle(fontSize: 18)),
                   );
                 },
-              ),
-              const SizedBox(height: 20),
-              // خط فاصل
-              Row(
-                children: const [
-                  Expanded(child: Divider()),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 8),
-                    child: Text('أو'),
-                  ),
-                  Expanded(child: Divider()),
-                ],
-              ),
-              const SizedBox(height: 20),
-              // زر إنشاء حساب جديد
-              OutlinedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const SignUpPage()),
-                  );
-                },
-                style: OutlinedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(vertical: 16),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ),
-                child: const Text(
-                  'إنشاء حساب جديد',
-                  style: TextStyle(fontSize: 18),
-                ),
               ),
             ],
           ),

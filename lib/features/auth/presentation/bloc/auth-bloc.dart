@@ -6,6 +6,8 @@ import 'package:car_appp_admin/features/auth/presentation/bloc/auth_event.dart';
 
 import 'package:injectable/injectable.dart';
 
+import '../../domain/usecase/login_user.dart';
+
 @lazySingleton
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   final LoginUsecase loginUsecase;
